@@ -5,9 +5,9 @@
 #define LED 9
 int NOTE_DUR = 137;
 
-const int song1threshold = 340;
-const int song2threshold = 680;
-const int song3threshold = 1200;
+const int song1threshold = 300;
+const int song2threshold = 650;
+const int song3threshold = 1023;
 
 void play(int note, int dur){
   tone(SPEAKER,note);
